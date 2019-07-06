@@ -1,0 +1,35 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_Kd toon_base_Body_Diffuse.tga
+adobe_map_normal toon_base_Body_Normal.tga
+map_Ks toon_base_Body_Specular.tga
+adobe_map_shininess toon_base_Body_Gloss.tga
+
+newmtl Eyelashes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d toon_base_Body_Opacity.tga
+map_Kd toon_base_Body_Diffuse.tga
+adobe_map_normal toon_base_Body_Normal.tga
+map_Ks toon_base_Body_Specular.tga
+adobe_map_shininess toon_base_Body_Gloss.tga
+
